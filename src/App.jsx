@@ -7,7 +7,6 @@ import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import Home from './pages/Home';
 import Rezervacia from './pages/Rezervacia';
-import GithubSync from './pages/GithubSync';
 // Add page imports here
 
 const AuthenticatedApp = () => {
@@ -34,7 +33,7 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/rezervacia" element={<Rezervacia />} />
-      <Route path="/github-sync" element={<GithubSync />} />
+    
     </Routes>
   );
 };

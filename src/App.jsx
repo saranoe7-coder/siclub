@@ -3,7 +3,6 @@ import { QueryClientProvider } from '@tanstack/react-query'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import Home from './pages/Home';
 import Rezervacia from './pages/Rezervacia';

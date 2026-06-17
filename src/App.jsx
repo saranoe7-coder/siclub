@@ -34,7 +34,6 @@ const AuthenticatedApp = () => {
       <Route path="/" element={<Home />} />
       <Route path="/rezervacia" element={<Rezervacia />} />
       <Route path="/github-sync" element={<GithubSync />} />
-      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 };
